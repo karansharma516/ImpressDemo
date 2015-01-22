@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COMP2068 - Impress Demo</title>
+    <!-- CSS Section -->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/game.css" rel="stylesheet" />
+
+    <link href="../../css/game.css" rel="stylesheet" />
+
+    <link href="../../css/reset.css" rel="stylesheet" />
+
+</head>
+<body onload="main();">
+
+    <div id="impress">
+
+        <!-- SLIDE #1-->
+        <div id="1" class="step slide">
+            <div class="slide-text">
+                <p>Hey, there's a time machine over there, flip the switch?</p>
+                <p><a href="#2">FLIP</a> it.</p>
+                <p><a href="#3">WAIT</a> for your dad, who is a scientist, to come home.</p>
+            </div>
+        </div>
+
+        <!-- SLIDE #2-->
+        <div id="2" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>You went back in time, it was fun!</p>
+                <div class="menu"><a href="#1">START OVER</a></div>
+            </div>
+        </div>
+
+        <!-- SLIDE #3-->
+        <div id="3" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>Your dad came home and he didn't let you use the time machine.</p>
+                <p>You Got Bored!</p>
+                <div class="menu"><a href="#1">START OVER</a></div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <!-- JavaScript Section -->
+    <script src="Scripts/lib/impress.js"></script>
+    <script src="Scripts/game.js"></script>
+</body>
+</html>
